@@ -1,0 +1,33 @@
+/*
+    Elizabeth Munro
+    12/06/2020
+*/
+img {
+    width: 20%;
+    height: auto;
+    padding: 30px;
+    margin: 15px;
+    background-color: #9ECB6E;
+    float: right;
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+h1 {
+    clear: right;
+
+}
+
+h2 {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+p {
+    padding: 10px;
+    margin: 10px;
+
+}

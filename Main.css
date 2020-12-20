@@ -1,0 +1,72 @@
+/*
+    Elizabeth Munro
+    12/06/2020
+*/
+
+a {
+    background-color: #9ECB6E;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #141D0B;
+}
+
+nav a {
+  display: block;
+}
+h1 {
+    padding: 15px;
+    margin: 30px;
+    text-align: center;
+    font-family: cursive;
+    border: solid 5px #2E1B11;
+}
+h2 {
+    font-family: cursive;
+}
+p {
+    font-family: cursive;
+}
+body {
+    background-color: #DFEECF;
+}
+footer {
+  margin-top: 100px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  background-color: #2E1B11;
+  color: #D6CBC0;
+}
+a[href^="mailto:"] {
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media screen and (min-width: 40em) {
+    nav {
+        float: left;
+        width: 25%;
+
+    }
+    main {
+        float: left;
+        width: 75%;
+    }
+    footer {
+      clear: both;
+      margin: 20px;
+    }
+    nav a {
+      padding: 15px;
+      margin: 20px;
+    }
+    a[href^="mailto:"] {
+        border-radius: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}

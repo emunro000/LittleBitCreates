@@ -1,0 +1,37 @@
+/*
+    Elizabeth Munro
+    12/06/2020
+*/
+form {
+    padding: 15px;
+    margin: 25px;
+    border: solid 2px #2E1B11;
+}
+input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+fieldset {
+    margin: 20px;
+}
+textarea {
+    width: 100%;
+    height: 75px;
+    border-radius: 15px;
+}
+label, legend {
+    font-family: cursive;
+}
+select {
+  padding: 10px;
+  font-size: medium;
+  margin: 10px;
+  border-radius: 15px;
+}
+.endcontainter {
+  text-align: center;
+}
+.radioCheck {
+  display: inline-block;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+    Author: Elizabeth Munro
+    Date: 12/06/2020
+-->
+<html lang="en">
+
+<head>
+    <title>Order a Custom Piece</title>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleSheets/Main.css">
+    <link rel="stylesheet" href="styleSheets/Order.css">
+</head>
+
+<body>
+
+    <header>
+      <h1>Order a Custom Piece</h1>
+
+      <nav>
+          <a href="index.html">About Me</a>
+          <a href="Fanpage.html">Are You a Fan?</a>
+          <a href="Order.html">Order a Custom Piece</a>
+          <a href="Portfolio.html">Portfolio</a>
+        </nav>
+
+    </header>
+
+    <main>
+      <form action="http://itins3.madisoncollege.edu/echo.php"
+              method="post" id="requestForm">
+
+              <label for="UserName">Name:</label><br>
+              <input type="text" id="UserName" name="UserName" required><br>
+
+              <label for="Email">Email:</label><br>
+              <input type="email" id="Email" name="userEmail" required><br>
+
+              <label for="phone">Phone:</label><br>
+              <input type="text" id="phone" name="userPhone"><br>
+
+
+              <label for="size">Size:</label><br>
+              <select id="size" name="size">
+                  <option value="xsmall">X-Small</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                  <option value="xlarge">X-Large</option>
+                  <option value="xxlarge">XX-Large</option>
+              </select>
+
+              <fieldset>
+                  <legend>What Kind of Item Would you Like?</legend>
+                  <input type="radio" class="radioCheck"
+                      id="top"
+                      value="Top"
+                      name="itemType">
+                      <label for="top">Top</label><br>
+
+                  <input type="radio" class="radioCheck"
+                      id="bottom"
+                      value="Bottom"
+                      name="itemType">
+                      <label for="bottom">Bottom</label><br>
+
+                  <input type="radio" class="radioCheck"
+                      id="sweatshirt"
+                      value="Sweatshirt"
+                      name="itemType">
+                      <label for="sweatshirt">Sweatshirt</label><br>
+
+                  <input type="radio" class="radioCheck"
+                      id="purse"
+                      value="Purse"
+                      name="itemType">
+                      <label for="purse">Purse</label><br>
+
+                  <input type="radio" class="radioCheck"
+                      id="accesories"
+                      value="Accesories"
+                      name="itemType">
+                      <label for="accesories">Accesories</label><br>
+
+                </fieldset>
+
+              <label for="requirements">What exactly do you want made?
+                  Details or other requirements here.</label><br>
+              <textarea id="requirements" name="requests" required></textarea>
+
+              <div class="endcontainter">
+              <input type="reset" value="Clear" class="endButtons">
+
+              <input type="submit" value="Submit Request" class="endButtons">
+            </div>
+        </form>
+
+    </main>
+
+    <footer>
+        <p class="mailto"><em>Developed By: <a href="mailto:emmunro@madisoncollege.edu">
+            emmunro@madisoncollege.edu</a></em></p>
+    </footer>
+
+</body>
+
+</html>
